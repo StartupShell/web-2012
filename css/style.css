@@ -336,13 +336,10 @@ header .top-menu {
   width: 100%;
   top: 0;
 }
-.header:before {
-  display: block;
-  content: "";
-  height: 50px;
-  margin: -50px 0 0;
-}
 /* NAVIGATION */
+.anchor {
+  padding: 100px;
+}
 nav.top-menu ul {
   margin: 0;
 }

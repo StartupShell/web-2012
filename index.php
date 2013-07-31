@@ -38,7 +38,7 @@
             </header> <!-- end .header -->
         </div> <!-- end #header-wrapper -->
 
-        <a id="welcome"></a>
+        <a class="anchor" id="welcome"></a>
         
         <section class="welcome">
             <div class="inner-section">
@@ -55,7 +55,7 @@
             <div class="content clearfix">
                 
                 <section class="about">
-                    <a id="about"></a>
+                    <a class="anchor" id="about"></a>
                     <div class="section-title"><h1>About</h1></div>
                     <div class="inner-section">
                         <h2>Think. Build. Play.</h2>
@@ -77,7 +77,7 @@
                 </section> <!-- end section .about -->
 
                 <section class="people">
-                    <a id="people"></a>
+                    <a class="anchor" id="people"></a>
                     <div class="section-title"><h1>People</h1></div>
                     <div class="inner-section">
                         <h2>We get a little crazy sometimes</h2>
@@ -105,7 +105,7 @@
                 </section> <!-- end section .people -->
 
                 <section class="engage">
-                    <a id="engage"></a>
+                    <a class="anchor" id="engage"></a>
                     <div class="section-title"><h1>Engage</h1></div>
                     <div class="inner-section">
                         <h2>Come join us</h2>
@@ -132,7 +132,7 @@
                 </section> <!-- end section .engage -->
 
                 <section class="connect">
-                    <a id="connect"></a>
+                    <a class="anchor" id="connect"></a>
                     <div class="section-title"><h1>Connect</h1></div>
                     <div class="inner-section">
                         <h2>See you around the block</h2>
