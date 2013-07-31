@@ -275,7 +275,7 @@ h5 a,
 }
 h1,
 .h1 {
-  font-size: 56px;
+  font-size: 48px;
   color: #dd6666;
   text-transform: uppercase;
   margin: 0;
@@ -285,7 +285,7 @@ h2,
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   text-rendering: optimizelegibility;
-  font-size: 56px;
+  font-size: 48px;
   color: #dd6666;
   text-transform: uppercase;
   margin: 0;
