@@ -1,0 +1,453 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,700);
+/*********************
+COLORS
+*********************/
+/*********************
+TYPOGRAPHY
+*********************/
+/* text alignment */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+/*********************
+TRANSITION
+*********************/
+/* .transition(all,2s); */
+.t1 {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+/*********************
+BOX SHADOW
+*********************/
+/* .boxShadow(0,0,4px,0,#444); */
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+  color: #222;
+}
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+.chromeframe {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  
+}
+@media print, (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  *text-indent: -9999px;
+}
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%;
+}
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+.invisible {
+  visibility: hidden;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+  
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+       * Don't show links for images, or javascript/internal links
+       */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */
+  
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page  {
+    margin: 0.5cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+body {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: 'Titillium Web', sans-serif;
+  color: #999999;
+}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+/* LAYOUT STYLES */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* LINKS */
+a,
+a:visited {
+  color: #dd6666;
+  text-decoration: underline;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  /* on hover */
+
+  /* on click */
+
+  /* mobile tap color */
+
+}
+a:hover,
+a:visited:hover,
+a:focus,
+a:visited:focus {
+  color: #dd6666;
+}
+a:link,
+a:visited:link {
+  /*
+        this highlights links on iPhones/iPads.
+        so it basically works like the :hover selector
+        for mobile devices.
+        */
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+/* HEADINGS */
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  text-rendering: optimizelegibility;
+}
+h1 a,
+.h1 a,
+h2 a,
+.h2 a,
+h3 a,
+.h3 a,
+h4 a,
+.h4 a,
+h5 a,
+.h5 a {
+  text-decoration: none;
+}
+h1,
+.h1 {
+  font-size: 56px;
+  color: #dd6666;
+  text-transform: uppercase;
+  margin: 0;
+}
+h2,
+.h2 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  text-rendering: optimizelegibility;
+  font-size: 56px;
+  color: #dd6666;
+  text-transform: uppercase;
+  margin: 0;
+}
+h2 a,
+.h2 a {
+  text-decoration: none;
+}
+p,
+.p {
+  font-size: 18px;
+}
+/* HEADER */
+header {
+  background: #eeeeee;
+  position: relative;
+  -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.35);
+}
+header .inner-header {
+  max-width: 960px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+header .logo {
+  float: left;
+  margin-top: 28px;
+}
+header .logo img {
+  float: left;
+}
+header .logo a h1 {
+  font-size: 18px;
+  float: left;
+  text-decoration: none;
+  color: #999999;
+  margin: 2px 0 0 10px;
+  text-transform: lowercase;
+  font-weight: 400;
+}
+header .top-menu {
+  float: right;
+  display: inline-block;
+}
+.floating {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+/* NAVIGATION */
+nav.top-menu ul {
+  margin: 0;
+}
+nav.top-menu ul li {
+  float: left;
+}
+nav.top-menu ul li a,
+nav.top-menu ul li a:visited {
+  color: #999999;
+  text-decoration: none;
+  padding: 30px 30px;
+  display: block;
+  text-transform: lowercase;
+}
+nav.top-menu ul li a:hover,
+nav.top-menu ul li a:visited:hover,
+nav.top-menu ul li a:focus,
+nav.top-menu ul li a:visited:focus {
+  background: #ffffff;
+  color: #999999;
+}
+nav.more-menu {
+  margin: 60px 0 0;
+}
+nav.more-menu p {
+  float: left;
+  margin-top: 26px;
+}
+nav.more-menu ul {
+  float: left;
+  padding-left: 36px;
+}
+nav.more-menu ul li {
+  float: left;
+}
+nav.more-menu ul li a,
+nav.more-menu ul li a:visited {
+  color: #999999;
+  text-decoration: none;
+  display: block;
+  text-transform: lowercase;
+  border: 1px #dd6666 solid;
+  margin: 0 10px;
+  padding: 8px 20px;
+}
+nav.more-menu ul li a:hover,
+nav.more-menu ul li a:visited:hover,
+nav.more-menu ul li a:focus,
+nav.more-menu ul li a:visited:focus {
+  background: #dd6666;
+  color: #ffffff;
+}
+/* SECTIONS */
+section {
+  padding: 0 10px;
+}
+section .feature {
+  text-align: center;
+  margin: 40px 0;
+}
+.inner-section {
+  width: 960px;
+  padding: 0 10px 80px;
+  margin: 0 auto;
+}
+.inner-section h2 {
+  text-align: center;
+  margin-top: 80px;
+}
+.inner-section p {
+  max-width: 780px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+}
+.welcome {
+  background: #dd6666;
+  padding-top: 80px;
+}
+.welcome h2 {
+  color: #ffffff;
+  margin-top: 0;
+}
+.section-title {
+  margin-top: 100px;
+  border-bottom: 1px #eeeeee solid;
+  text-align: center;
+  height: 14px;
+  overflow: visible;
+}
+.section-title h1 {
+  color: #999999;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #ffffff;
+  padding: 0 40px;
+  display: inline-block;
+  margin-bottom: -10px;
+  z-index: 2;
+}
+/* FOOTER */
+footer {
+  margin: 80px 0;
+}
+/* FANCY STYLES */
+::-moz-selection {
+  background: #dd6666;
+  color: #ffffff;
+  text-shadow: none;
+}
+::selection {
+  background: #dd6666;
+  color: #ffffff;
+  text-shadow: none;
+}

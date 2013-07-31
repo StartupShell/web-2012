@@ -1,0 +1,283 @@
+body {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: @titillium;
+    color: @gray;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+
+/* LAYOUT STYLES */
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+/* LINKS */
+
+a, a:visited {
+    color: @red;
+    text-decoration: underline;
+    // padding-bottom: 1px;
+    // border-bottom: 1px @red solid;
+    .t1;
+
+    /* on hover */
+    &:hover, &:focus {
+        color: @red;
+    }
+
+    /* on click */
+    &:active {
+
+    }
+
+    /* mobile tap color */
+    &:link {
+        /*
+        this highlights links on iPhones/iPads.
+        so it basically works like the :hover selector
+        for mobile devices.
+        */
+        -webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
+    }
+}
+
+/* HEADINGS */
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+	font-family: @titillium;
+	font-weight: 700;
+    text-rendering: optimizelegibility;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+h1, .h1 {
+	font-size: 56px;
+	color: @red;
+	text-transform: uppercase;
+	margin: 0;
+ }
+
+h2, .h2 {
+	.h1;
+}
+
+h3, .h3 {
+}
+
+h4, .h4 {
+}
+
+p, .p {
+	font-size: 18px;
+}
+
+
+/* HEADER */
+
+header {
+
+	background: @light-gray;
+	position: relative;
+	.boxShadow(0,0,4px,0,rgba(0,0,0,0.35));
+
+	.inner-header {
+		max-width: 960px;
+		padding: 0 10px;
+		margin: 0 auto;
+	}
+
+	.logo {
+
+		float: left;
+		margin-top: 28px;
+
+		img {float: left;}
+		a h1 {
+			.p;
+			float: left;
+			text-decoration: none;
+			color: @gray;
+			margin: 2px 0 0 10px;
+			text-transform: lowercase;
+			font-weight: 400;
+		}
+	}
+
+	.top-menu {
+		float: right;
+		display: inline-block;
+	}
+
+}
+
+	.floating {
+    	position: fixed;
+    	width: 100%;
+    	top: 0;
+	}
+
+/* NAVIGATION */
+
+
+nav.top-menu {
+
+	ul {
+	
+		margin: 0;
+	
+		li {
+			float: left;
+
+			a, a:visited {
+				color: @gray;
+				text-decoration: none;
+				padding: 30px 30px;
+				display: block;
+				text-transform: lowercase;
+    			
+    			&:hover, &:focus {
+    				background: @white;
+    				color: @gray;
+    			}
+
+			}
+		}
+	}
+}
+
+nav.more-menu {
+
+	margin: 60px 0 0;
+
+	p{
+		float: left;
+		margin-top: 26px;
+	}
+
+	ul {
+		float: left;
+		padding-left: 36px;
+
+		li {
+			float: left;
+
+			a, a:visited {
+				color: @gray;
+				text-decoration: none;
+				display: block;
+				text-transform: lowercase;
+				border: 1px @red solid;
+				margin: 0 10px;
+				padding: 8px 20px;
+
+    			
+    			&:hover, &:focus {
+    				background: @red;
+    				color: @white;
+    			}
+
+			}
+		}
+	}
+}
+
+
+/* SECTIONS */
+
+section {
+	padding: 0 10px;
+
+	.feature {
+		.text-center;
+		margin: 40px 0;
+	}
+}
+
+.inner-section {
+	width: 960px;
+	padding: 0 10px 80px;
+	margin: 0 auto;
+
+	h2 {
+		.text-center;
+		margin-top: 80px;
+	}
+
+	p {
+		max-width: 780px;
+		margin-bottom: 10px;
+		margin: 0 auto;
+	}
+
+}
+
+.welcome {
+
+	background: @red;
+	padding-top: 80px;
+
+	h2 {
+		color: @white;
+		margin-top: 0;
+	}
+
+}
+
+.section-title {
+	
+	margin-top: 100px;
+	border-bottom: 1px @light-gray solid;
+	.text-center;
+	height: 14px;
+	overflow: visible;
+
+	h1 {
+		color: @gray;
+		font-size: 14px;
+		text-transform: uppercase;
+		background: @white;
+		padding: 0 40px;
+		display: inline-block;
+		margin-bottom: -10px;
+		z-index: 2;
+	}
+
+}
+
+/* FOOTER */
+
+footer {
+	margin: 80px 0;
+}
+
+
+/* FANCY STYLES */
+
+
+::-moz-selection {
+    background: @red;
+    color: @white;
+    text-shadow: none;
+}
+
+::selection {
+    background: @red;
+    color: @white;
+    text-shadow: none;
+}
