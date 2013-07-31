@@ -334,7 +334,7 @@ header .top-menu {
 .floating {
   position: fixed;
   width: 100%;
-  top: 0;
+  top: -2;
 }
 /* NAVIGATION */
 .anchor {

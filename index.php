@@ -21,7 +21,7 @@
         <![endif]-->
 
         <div id="header-wrapper">
-            <header class="header clearfix" id="header">
+            <header class="header clearfix floating" id="header">
                 <div class="inner-header">
                     <div class="logo">
                         <a href="#welcome"><img src="img/logo.png" alt="FEARLESS"><h1>Startup Shell</h1></a>
