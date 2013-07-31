@@ -275,7 +275,7 @@ h5 a,
 }
 h1,
 .h1 {
-  font-size: 42px;
+  font-size: 50px;
   color: #dd6666;
   text-transform: uppercase;
   margin: 0;
@@ -285,7 +285,7 @@ h2,
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   text-rendering: optimizelegibility;
-  font-size: 42px;
+  font-size: 50px;
   color: #dd6666;
   text-transform: uppercase;
   margin: 0;
@@ -335,6 +335,12 @@ header .top-menu {
   position: fixed;
   width: 100%;
   top: 0;
+}
+.header:before {
+  display: block;
+  content: "";
+  height: 50px;
+  margin: -50px 0 0;
 }
 /* NAVIGATION */
 nav.top-menu ul {
