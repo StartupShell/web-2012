@@ -198,7 +198,7 @@ body {
   font-size: 18px;
   line-height: 1.4;
   font-family: 'Titillium Web', sans-serif;
-  color: #999999;
+  color: #888888;
 }
 ::-moz-selection {
   background: #b3d4fc;
@@ -302,9 +302,6 @@ p,
 header {
   background: #eeeeee;
   position: relative;
-  -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.35);
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.35);
 }
 header .inner-header {
   max-width: 960px;
@@ -322,7 +319,7 @@ header .logo a h1 {
   font-size: 18px;
   float: left;
   text-decoration: none;
-  color: #999999;
+  color: #888888;
   margin: 2px 0 0 10px;
   text-transform: lowercase;
   font-weight: 400;
@@ -348,7 +345,7 @@ nav.top-menu ul li {
 }
 nav.top-menu ul li a,
 nav.top-menu ul li a:visited {
-  color: #999999;
+  color: #888888;
   text-decoration: none;
   padding: 30px 30px;
   display: block;
@@ -359,7 +356,7 @@ nav.top-menu ul li a:visited:hover,
 nav.top-menu ul li a:focus,
 nav.top-menu ul li a:visited:focus {
   background: #ffffff;
-  color: #999999;
+  color: #888888;
 }
 nav.more-menu {
   margin: 60px 0 0;
@@ -377,7 +374,7 @@ nav.more-menu ul li {
 }
 nav.more-menu ul li a,
 nav.more-menu ul li a:visited {
-  color: #999999;
+  color: #888888;
   text-decoration: none;
   display: block;
   text-transform: lowercase;
@@ -430,7 +427,7 @@ section .feature {
   overflow: visible;
 }
 .section-title h1 {
-  color: #999999;
+  color: #888888;
   font-size: 14px;
   text-transform: uppercase;
   background: #ffffff;

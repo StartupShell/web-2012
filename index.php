@@ -29,6 +29,7 @@
                     <nav class="top-menu">
                         <ul>
                             <li><a href="#about">About</a></li>
+                            <li><a href="#startups">Startups</a></li>
                             <li><a href="#people">People</a></li>
                             <li><a href="#engage">Engage</a></li>
                             <li><a href="#connect">Connect</a></li>
@@ -76,6 +77,27 @@
                     </div> <!-- end .inner-section -->
                 </section> <!-- end section .about -->
 
+                <section class="startups">
+                    <a class="anchor" id="startups"></a>
+                    <div class="section-title"><h1>Startups</h1></div>
+                    <div class="inner-section">
+                        <h2>Home to diverse ventures</h2>
+                        <div class="feature">
+                            <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=roster" alt="roster">
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                        <nav class="more-menu">
+                            <p>more:</p>
+                            <ul>
+                                <li><a href="#">Startup bios</a></li>
+                                <li><a href="#">Hacks</a></li>
+                            </ul>
+                        </nav>
+
+                    </div> <!-- end .inner-section -->
+                </section> <!-- end section .startups -->
+
+
                 <section class="people">
                     <a class="anchor" id="people"></a>
                     <div class="section-title"><h1>People</h1></div>
@@ -85,15 +107,9 @@
                             <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=image+of+students+being+sillay" alt="image+of+students+being+sillay">
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
-                        <h2>Home to diverse startups</h2>
-                        <div class="feature">
-                            <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=roster" alt="roster">
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
                         <nav class="more-menu">
                             <p>more:</p>
                             <ul>
-                                <li><a href="#">Startups</a></li>
                                 <li><a href="#">Students</a></li>
                                 <li><a href="#">Sponsors</a></li>
                                 <li><a href="#">Mentors</a></li>
@@ -136,10 +152,10 @@
                     <div class="section-title"><h1>Connect</h1></div>
                     <div class="inner-section">
                         <h2>See you around the block</h2>
-                        <div class="feature">
+<!--                         <div class="feature">
                             <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=contacty+stuff" alt="contacty+stuff">
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+ -->                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
                         <nav class="more-menu">
                             <p>more:</p>
                             <ul>
