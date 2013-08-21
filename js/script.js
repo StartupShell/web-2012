@@ -1,19 +1,3 @@
-
-
-
-$(document).ready( function() {
-    $('#header').attr('left', $('#header').attr('left'));
-
-    $(window).scroll( function() {
-        if ($(window).scrollTop() >= $('#header-wrapper').offset().top)
-            $('#header').addClass('floating');
-        else
-            $('#header').removeClass('floating');
-    } );
-
-} );
-
-
 $(document).ready(function(){
   $('a[href*=#]').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')

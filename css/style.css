@@ -335,11 +335,11 @@ header .top-menu {
 .floating {
   position: fixed;
   width: 100%;
-  top: 0;
+  top: -2;
 }
 /* NAVIGATION */
 .anchor {
-  padding: 20px;
+  padding: 50px;
 }
 nav.top-menu ul {
   margin: 0;
