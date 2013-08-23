@@ -43,9 +43,10 @@
         
         <section class="welcome">
             <div class="inner-section">
+
                 <h2>Think. Build. Play.</h2>
                 <div class="feature">
-                    <iframe src="http://player.vimeo.com/video/70408127?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=a0c9ca" width="780" height="439" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                    <iframe src="http://player.vimeo.com/video/70408127?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=a0c9ca" width="960" height="541" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                 </div>
 
             </div> <!-- end .inner-section -->
@@ -59,11 +60,13 @@
                     <a class="anchor" id="about"></a>
                     <div class="section-title"><h1>About</h1></div>
                     <div class="inner-section">
+
                         <h2>Student Technology Collective</h2>
                         <div class="feature">
-                            <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=image+of+space" alt="image+of+space">
+                            <img src="http://dummyimage.com/960x440/4d494d/686a82.gif&text=image+of+space" alt="image+of+space">
                         </div>
                         <p>Startup Shell advances student startups and projects while leading technology and entrepreneurship initiatives in the greater community. We strive to promote our core values of students, technology, entrepreneurship and innovation, and collaboration.</p>
+
                         <nav class="more-menu">
                             <p>more:</p>
                             <ul>
@@ -81,11 +84,13 @@
                     <a class="anchor" id="startups"></a>
                     <div class="section-title"><h1>Startups</h1></div>
                     <div class="inner-section">
+
                         <h2>Home to diverse ventures</h2>
                         <div class="feature">
-                            <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=roster" alt="roster">
+                            <img src="http://dummyimage.com/960x440/4d494d/686a82.gif&text=roster" alt="roster">
                         </div>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+
                         <nav class="more-menu">
                             <p>more:</p>
                             <ul>
@@ -102,16 +107,19 @@
                     <a class="anchor" id="people"></a>
                     <div class="section-title"><h1>People</h1></div>
                     <div class="inner-section">
+
                         <h2>These people are building something great</h2>
                         <div class="feature">
-                            <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=image+of+students+being+sillay" alt="image+of+students+being+sillay">
+                            <img src="http://dummyimage.com/960x440/4d494d/686a82.gif&text=image+of+students+being+sillay" alt="image+of+students+being+sillay">
                         </div>
                         <p>Our students are absolutely crazy. With different backgrounds, experience levels, skills, and interests, members bring a lot to the table for collaboration and knowledge sharing. Get in on the action.</p>
-                        <h2>We &#10084; our support network</h2>
+
+                        <h2>We &#60;3 our support network</h2>
                         <div class="feature">
-                            <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=image+of+students+being+sillay" alt="image+of+students+being+sillay">
+                            <img src="http://dummyimage.com/960x440/4d494d/686a82.gif&text=image+of+students+being+sillay" alt="image+of+students+being+sillay">
                         </div>
                         <p>We have a great team of sponsors, mentors, and partners to help us out in the journey. Their advice and resources are invaluable to students in all stages of development, from ideation to operations.</p>
+
                         <nav class="more-menu">
                             <p>more:</p>
                             <ul>
@@ -129,16 +137,41 @@
                     <a class="anchor" id="engage"></a>
                     <div class="section-title"><h1>Engage</h1></div>
                     <div class="inner-section">
+
                         <h2>Become a member</h2>
                         <div class="feature">
-                            <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=image+of+students+being+sillay" alt="image+of+students+being+sillay">
+                            <img src="http://dummyimage.com/960x440/4d494d/686a82.gif&text=image+of+students+being+sillay" alt="image+of+students+being+sillay">
                         </div>
                         <p>Join our awesome crew of cool people making cool things. We are looking to people who can contribute on multiple levels: individual, project, organization, and community. View the application for more details.</p>
+
                         <h2>Take part in events</h2>
-                        <div class="feature">
-                            <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=calendar" alt="calendar">
-                        </div>
                         <p>All events are wide open for everyone to come learn something new! While we are committed to advancing our member projects, it is equally important for us to empower students and the Maryland community. Come one, come all!</p>
+
+                        <div class="event-wrapper">
+                            <div class="event-block">
+                                <div class="event-date">
+                                    <span class="event-date-month">September</span>
+                                    <span class="event-date-day">20</span>
+                                </div>
+                                <div class="event-details">
+                                    <h1 class="event-title">First Look Fair</h1>
+                                    <p class="event-location">McKeldin Mall</p>
+                                    <p class="event-description">First Look Fair is one of the longest running involvement traditions at the University of Maryland.  The event is host to more than 500 student clubs and organizations, campus departments and services, local vendors.</p>
+                                </div>
+                                <div class="event-details">
+                                    <h1 class="event-title">First Look Fair</h1>
+                                    <p class="event-location">McKeldin Mall</p>
+                                    <p class="event-description">First Look Fair is one of the longest running involvement traditions at the University of Maryland.  The event is host to more than 500 student clubs and organizations, campus departments and services, local vendors.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
                         <nav class="more-menu">
                             <p>more:</p>
                             <ul>
