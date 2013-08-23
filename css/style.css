@@ -442,6 +442,12 @@ section .feature {
 footer {
   margin: 80px 0;
 }
+/* EVENTS SECTION */
+.event-date {
+  background: #888888;
+  color: #ffffff;
+  padding: 20px;
+}
 /* FANCY STYLES */
 ::-moz-selection {
   background: #dd6666;

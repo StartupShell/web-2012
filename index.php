@@ -150,27 +150,16 @@
                         <div class="event-wrapper">
                             <div class="event-block">
                                 <div class="event-date">
-                                    <span class="event-date-month">September</span>
-                                    <span class="event-date-day">20</span>
+                                    <span class="event-month clearfix">September</span>
+                                    <span class="event-day clearfix">20</span>
                                 </div>
                                 <div class="event-details">
-                                    <h1 class="event-title">First Look Fair</h1>
-                                    <p class="event-location">McKeldin Mall</p>
-                                    <p class="event-description">First Look Fair is one of the longest running involvement traditions at the University of Maryland.  The event is host to more than 500 student clubs and organizations, campus departments and services, local vendors.</p>
-                                </div>
-                                <div class="event-details">
-                                    <h1 class="event-title">First Look Fair</h1>
+                                    <h2 class="event-title">First Look Fair</h2>
                                     <p class="event-location">McKeldin Mall</p>
                                     <p class="event-description">First Look Fair is one of the longest running involvement traditions at the University of Maryland.  The event is host to more than 500 student clubs and organizations, campus departments and services, local vendors.</p>
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-
 
                         <nav class="more-menu">
                             <p>more:</p>
