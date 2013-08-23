@@ -43,7 +43,7 @@
         
         <section class="welcome">
             <div class="inner-section">
-                <h2>Let's move things together</h2>
+                <h2>Think. Build. Play.</h2>
                 <div class="feature">
                     <iframe src="http://player.vimeo.com/video/70408127?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=a0c9ca" width="780" height="439" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
                 </div>
@@ -59,11 +59,11 @@
                     <a class="anchor" id="about"></a>
                     <div class="section-title"><h1>About</h1></div>
                     <div class="inner-section">
-                        <h2>Think. Build. Play.</h2>
+                        <h2>Student Technology Collective</h2>
                         <div class="feature">
                             <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=image+of+space" alt="image+of+space">
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                        <p>Startup Shell advances student startups and projects while leading technology and entrepreneurship initiatives in the greater community. We strive to promote our core values of students, technology, entrepreneurship and innovation, and collaboration.</p>
                         <nav class="more-menu">
                             <p>more:</p>
                             <ul>
@@ -102,11 +102,16 @@
                     <a class="anchor" id="people"></a>
                     <div class="section-title"><h1>People</h1></div>
                     <div class="inner-section">
-                        <h2>We get a little crazy sometimes</h2>
+                        <h2>These people are building something great</h2>
                         <div class="feature">
                             <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=image+of+students+being+sillay" alt="image+of+students+being+sillay">
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                        <p>Our students are absolutely crazy. With different backgrounds, experience levels, skills, and interests, members bring a lot to the table for collaboration and knowledge sharing. Get in on the action.</p>
+                        <h2>We &#10084; our support network</h2>
+                        <div class="feature">
+                            <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=image+of+students+being+sillay" alt="image+of+students+being+sillay">
+                        </div>
+                        <p>We have a great team of sponsors, mentors, and partners to help us out in the journey. Their advice and resources are invaluable to students in all stages of development, from ideation to operations.</p>
                         <nav class="more-menu">
                             <p>more:</p>
                             <ul>
@@ -124,16 +129,16 @@
                     <a class="anchor" id="engage"></a>
                     <div class="section-title"><h1>Engage</h1></div>
                     <div class="inner-section">
-                        <h2>Come join us</h2>
+                        <h2>Become a member</h2>
                         <div class="feature">
                             <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=image+of+students+being+sillay" alt="image+of+students+being+sillay">
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                        <p>Join our awesome crew of cool people making cool things. We are looking to people who can contribute on multiple levels: individual, project, organization, and community. View the application for more details.</p>
                         <h2>Take part in events</h2>
                         <div class="feature">
                             <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=calendar" alt="calendar">
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                        <p>All events are wide open for everyone to come learn something new! While we are committed to advancing our member projects, it is equally important for us to empower students and the Maryland community. Come one, come all!</p>
                         <nav class="more-menu">
                             <p>more:</p>
                             <ul>
@@ -152,10 +157,7 @@
                     <div class="section-title"><h1>Connect</h1></div>
                     <div class="inner-section">
                         <h2>See you around the block</h2>
-<!--                         <div class="feature">
-                            <img src="http://dummyimage.com/780x440/4d494d/686a82.gif&text=contacty+stuff" alt="contacty+stuff">
-                        </div>
- -->                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.</p>
+                        <p>Email, Twitter, Facebook</p>
                         <nav class="more-menu">
                             <p>more:</p>
                             <ul>
@@ -168,7 +170,7 @@
                 </section> <!-- end section .engage -->
 
                 <footer>
-                    <p>&copy; 2013 Startup Shell, University of Maryland</p>
+                    <p>&copy; <?php echo date("Y") ?> Startup Shell, University of Maryland</p>
                 </footer>
 
             </div> <!-- end .content -->
