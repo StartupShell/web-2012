@@ -171,14 +171,17 @@ nav.top-menu {
 .more-menu {
 
 	margin-top: 60px;
+	display: block;
 
 	p {
 		float: left;
-		margin-top: 26px;
+		padding-top: 8px;
 	}
 
 	ul {
 		float: left;
+		margin: 0;
+		padding-left: 20px;
 
 		li {
 			float: left;
@@ -273,6 +276,16 @@ footer {
 }
 
 
+/* APPLICATION FORM */
+
+.ss-base-body {
+	font-size: 18px;
+    line-height: 1.4;
+    font-family: @titillium;
+    color: @gray;
+}
+
+
 /* BUTTONS */
 
 .apply-button a, .apply-button a:visited {
@@ -298,7 +311,7 @@ footer {
 	margin-bottom: 40px;
 
 	&:hover {
-		.event-location, .event-description {
+		.event-location, .event-description, .event-time {
 			color: @red;
 		}
 	}
@@ -342,6 +355,14 @@ footer {
 		display: inline-block;
 		font-weight: 700;
 		margin-top: 19px;
+		color: @gray;
+	}
+
+	.event-time {
+		float: left;
+		display: inline-block;
+		margin-top: 19px;
+		margin-left: 20px;
 		color: @gray;
 	}
 
