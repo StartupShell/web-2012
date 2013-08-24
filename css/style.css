@@ -221,7 +221,6 @@ body {
 }
 /* LAYOUT STYLES */
 .container {
-  max-width: 960px;
   margin: 0 auto;
 }
 /* LINKS */
@@ -435,6 +434,7 @@ section .feature {
   margin-top: 0;
 }
 .section-title {
+  margin-top: 20px;
   border-bottom: 1px #eeeeee solid;
   text-align: center;
   height: 14px;
