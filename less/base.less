@@ -6,10 +6,6 @@ body {
     text-align: center;
 }
 
-p {
-	text-align: left;
-}
-
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -89,7 +85,8 @@ h4, .h4 {
 }
 
 p, .p {
-	font-size: 20px;
+	font-size: 18px;
+	text-align: left;
 }
 
 
@@ -276,12 +273,85 @@ footer {
 }
 
 
+/* BUTTONS */
+
+.apply-button a, .apply-button a:visited {
+	.h2;
+	text-align: center;
+	width: 100%;
+	padding: 40px;
+	display: block;
+	text-decoration: none;
+	box-sizing: border-box;
+	.button;
+	font-size: 30px;
+}
+
+
 /* EVENTS SECTION */
+
+.event-wrapper {
+	margin-top: 40px;
+}
+
+.event-block {
+	margin-bottom: 40px;
+
+	&:hover {
+		.event-location, .event-description {
+			color: @red;
+		}
+	}
+}
 
 .event-date {
 	background: @gray;
 	color: @white;
-	padding: 20px;
+	height: 140px;
+	padding-top: 20px;
+	text-align: center;
+	box-sizing: border-box;
+
+	.event-month {
+		text-transform: lowercase;
+	}
+
+	.event-day {
+		font-weight: 700;
+		color: @white;
+		font-size: 72px;
+		margin: 0;
+		line-height: 1;
+	}
+}
+
+.event-details {
+	
+	.event-name {
+		font-weight: 400;
+		text-transform: lowercase;
+		font-size: 36px;
+		margin: 0 20px 0 0;
+		text-align: left;
+		float: left;
+		display: inline-block;
+	}
+
+	.event-location {
+		float: left;
+		display: inline-block;
+		font-weight: 700;
+		margin-top: 19px;
+		color: @gray;
+	}
+
+	.event-description {
+		margin-top: 10px;
+		.clearfix;
+		display: block;
+		color: @gray;
+	}
+
 }
 
 
