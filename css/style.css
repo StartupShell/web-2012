@@ -529,7 +529,6 @@ footer {
   font-size: 36px;
   margin: 0 20px 0 0;
   text-align: left;
-  float: left;
   display: inline-block;
 }
 .event-details .event-location {
