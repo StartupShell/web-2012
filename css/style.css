@@ -527,9 +527,10 @@ footer {
   font-weight: 400;
   text-transform: lowercase;
   font-size: 36px;
-  margin: 0 20px 0 0;
+  margin: 0;
   text-align: left;
-  display: inline-block;
+  display: block;
+  line-height: 1;
 }
 .event-details .event-location {
   float: left;
