@@ -97,6 +97,7 @@ header {
 	background: @light-gray;
 	position: relative;
 	// .boxShadow(0,0,4px,0,rgba(0,0,0,0.35));
+	z-index: 1;
 
 	.inner-header {
 		max-width: 960px;
@@ -238,7 +239,7 @@ section {
 .welcome {
 
 	background: @red;
-	padding-top: 80px;
+	padding-top: 160px;
 
 	h2 {
 		color: @white;
@@ -248,20 +249,22 @@ section {
 }
 
 .section-title {
-	
-	margin-top: 100px;
+
+
+	// margin-top: 100px;
 	border-bottom: 1px @light-gray solid;
 	.text-center;
 	height: 14px;
 	overflow: visible;
 
 	h1 {
+		display: none;
 		color: @gray;
 		font-size: 14px;
 		text-transform: uppercase;
 		background: @white;
 		padding: 0 40px;
-		display: inline-block;
+		// display: inline-block;
 		margin-bottom: -10px;
 		z-index: 2;
 	}
@@ -298,6 +301,7 @@ footer {
 	box-sizing: border-box;
 	.button;
 	font-size: 30px;
+	margin-top: 40px;
 }
 
 
@@ -376,7 +380,14 @@ footer {
 
 }
 
-
+.startup-grid {
+	img {
+		opacity: .8;
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
 
 /* FANCY STYLES */
 

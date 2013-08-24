@@ -314,6 +314,7 @@ p,
 header {
   background: #eeeeee;
   position: relative;
+  z-index: 1;
 }
 header .inner-header {
   max-width: 960px;
@@ -427,26 +428,25 @@ section .feature {
 }
 .welcome {
   background: #dd6666;
-  padding-top: 80px;
+  padding-top: 160px;
 }
 .welcome h2 {
   color: #ffffff;
   margin-top: 0;
 }
 .section-title {
-  margin-top: 100px;
   border-bottom: 1px #eeeeee solid;
   text-align: center;
   height: 14px;
   overflow: visible;
 }
 .section-title h1 {
+  display: none;
   color: #888888;
   font-size: 14px;
   text-transform: uppercase;
   background: #ffffff;
   padding: 0 40px;
-  display: inline-block;
   margin-bottom: -10px;
   z-index: 2;
 }
@@ -480,6 +480,7 @@ footer {
   background: #dd6666;
   color: #ffffff;
   font-size: 30px;
+  margin-top: 40px;
 }
 .apply-button a a,
 .apply-button a:visited a {
@@ -551,6 +552,12 @@ footer {
   *zoom: 1;
   display: block;
   color: #888888;
+}
+.startup-grid img {
+  opacity: .8;
+}
+.startup-grid img:hover {
+  opacity: 1;
 }
 /* FANCY STYLES */
 ::-moz-selection {
