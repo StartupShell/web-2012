@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,700);
+/*********************
+COLORS
+*********************/
+/*********************
+TYPOGRAPHY
+*********************/
+/* text alignment */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+/*********************
+TRANSITION
+*********************/
+/* .transition(all,2s); */
+.t1 {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+/*********************
+BOX SHADOW
+*********************/
+/* .boxShadow(0,0,4px,0,#444); */
+/*********************
+BUTTON
+*********************/
+.button {
+  background: #dd6666;
+  color: #ffffff;
+}
+.button:hover {
+  color: #eeeeee;
+}
+.form-all {
+  font-family: 'Titillium Web', sans-serif;
+}
+.form-error-message {
+  display: none !important;
+}
+.form-line-error {
+  background: none repeat scroll 0 0;
+}
+.form-textarea {
+  width: 100%;
+  resize: none;
+  background: #eeeeee;
+  border: 0;
+  outline: #eeeeee 1px solid;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #888888;
+  font-size: 14px;
+}
+.form-textarea:focus,
+.form-textarea:active {
+  outline: #888888 1px solid;
+  background: #ffffff;
+}
+input,
+.form-dropdown {
+  background: #eeeeee;
+  padding: 10px;
+  border: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #888888;
+  outline: #eeeeee 1px solid;
+}
+input:focus,
+.form-dropdown:focus,
+input:active,
+.form-dropdown:active {
+  outline: #888888 1px solid;
+  background: #ffffff;
+}
+.form-validation-error,
+.validate[required] {
+  outline: #dd6666 1px solid;
+}
+.form-submit-button {
+  background: #dd6666;
+  color: #ffffff;
+  border: 0;
+  padding: 10px 20px;
+  text-transform: lowercase;
+  font-family: 'Titillium Web', sans-serif;
+  cursor: pointer;
+  outline: 0;
+  font-size: 18px;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.form-submit-button:hover {
+  color: #eeeeee;
+}
+.form-submit-button:hover {
+  color: #eeeeee;
+}
+.form-submit-button:focus,
+.form-submit-button:active {
+  outline: 0;
+}
+.form-required {
+  color: #dd6666;
+}
+.form-button-error,
+.form-button-error p {
+  color: #dd6666;
+  text-align: left;
+}
