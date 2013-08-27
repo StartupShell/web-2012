@@ -358,7 +358,7 @@ header .top-menu {
 }
 /* NAVIGATION */
 .anchor {
-  padding: 20px;
+  padding: 40px;
 }
 nav.top-menu ul {
   margin: 0;
@@ -587,6 +587,9 @@ footer {
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
+}
+.startup-grid {
+  margin-left: -10px;
 }
 .startup-grid img {
   opacity: .8;
