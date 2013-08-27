@@ -412,6 +412,9 @@ section .feature {
   text-align: center;
   margin: 0 0 40px 0;
 }
+.section-alt {
+  background: #dd6666;
+}
 .inner-section {
   width: 960px;
   padding: 0 10px 80px;
@@ -435,7 +438,6 @@ section .feature {
 }
 .section-title {
   margin: 20px auto 0;
-  border-bottom: 1px #eeeeee solid;
   text-align: center;
   height: 14px;
   overflow: visible;
@@ -591,6 +593,9 @@ footer {
 }
 .startup-grid img:hover {
   opacity: 1;
+}
+.no-link {
+  cursor: default;
 }
 /* FANCY STYLES */
 ::-moz-selection {
