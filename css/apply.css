@@ -57,12 +57,12 @@ BUTTON
   outline: #eeeeee 1px solid;
   padding: 10px;
   font-family: sans-serif;
-  color: #888888;
+  color: #666666;
   font-size: 14px;
 }
 .form-textarea:focus,
 .form-textarea:active {
-  outline: #888888 1px solid;
+  outline: #666666 1px solid;
   background: #ffffff;
 }
 input,
@@ -72,14 +72,14 @@ input,
   border: none;
   font-family: sans-serif;
   font-size: 14px;
-  color: #888888;
+  color: #666666;
   outline: #eeeeee 1px solid;
 }
 input:focus,
 .form-dropdown:focus,
 input:active,
 .form-dropdown:active {
-  outline: #888888 1px solid;
+  outline: #666666 1px solid;
   background: #ffffff;
 }
 .form-validation-error,

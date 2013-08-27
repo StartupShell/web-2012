@@ -208,7 +208,7 @@ body {
   font-size: 18px;
   line-height: 1.4;
   font-family: 'Titillium Web', sans-serif;
-  color: #888888;
+  color: #666666;
   text-align: center;
 }
 ::-moz-selection {
@@ -311,7 +311,7 @@ p,
 }
 /* HEADER */
 header {
-  background: #888888;
+  background: #666666;
   position: relative;
   z-index: 1;
 }
@@ -332,7 +332,7 @@ header .logo a h1 {
   text-align: left;
   float: left;
   text-decoration: none;
-  color: #888888;
+  color: #666666;
   margin: 2px 0 0 10px;
   text-transform: lowercase;
   font-weight: 400;
@@ -369,7 +369,7 @@ nav.top-menu ul li a:visited:hover,
 nav.top-menu ul li a:focus,
 nav.top-menu ul li a:visited:focus {
   background: #ffffff;
-  color: #888888;
+  color: #666666;
 }
 .nav-active {
   background: #eeeeee;
@@ -392,7 +392,7 @@ nav.top-menu ul li a:visited:focus {
 }
 .more-menu ul li a,
 .more-menu ul li a:visited {
-  color: #888888;
+  color: #666666;
   text-decoration: none;
   display: block;
   text-transform: lowercase;
@@ -416,7 +416,7 @@ section .feature {
   margin: 0 0 40px 0;
 }
 .section-alt {
-  background: #dd6666;
+  background: #eeeeee;
 }
 .inner-section {
   width: 960px;
@@ -448,7 +448,7 @@ section .feature {
 }
 .section-title h1 {
   display: none;
-  color: #888888;
+  color: #666666;
   font-size: 14px;
   text-transform: uppercase;
   background: #ffffff;
@@ -514,7 +514,7 @@ footer {
   background: #dd6666;
 }
 .event-date {
-  background: #888888;
+  background: #666666;
   color: #ffffff;
   height: 140px;
   padding-top: 20px;
@@ -555,7 +555,7 @@ footer {
   display: inline-block;
   font-weight: 700;
   margin-top: 19px;
-  color: #888888;
+  color: #666666;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
@@ -567,7 +567,7 @@ footer {
   display: inline-block;
   margin-top: 19px;
   margin-left: 20px;
-  color: #888888;
+  color: #666666;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
@@ -578,7 +578,7 @@ footer {
   margin-top: 10px;
   *zoom: 1;
   display: block;
-  color: #888888;
+  color: #666666;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
