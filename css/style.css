@@ -290,20 +290,6 @@ h1,
   text-transform: uppercase;
   margin: 0;
 }
-h2,
-.h2 {
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 700;
-  text-rendering: optimizelegibility;
-  font-size: 50px;
-  color: #dd6666;
-  text-transform: uppercase;
-  margin: 0;
-}
-h2 a,
-.h2 a {
-  text-decoration: none;
-}
 p,
 .p {
   font-size: 18px;
@@ -332,7 +318,7 @@ header .logo a h1 {
   text-align: left;
   float: left;
   text-decoration: none;
-  color: #666666;
+  color: #ffffff;
   margin: 2px 0 0 10px;
   text-transform: lowercase;
   font-weight: 400;
@@ -409,11 +395,10 @@ nav.top-menu ul li a:visited:focus {
 }
 /* SECTIONS */
 section {
-  padding: 0 10px;
+  padding: 40px 0;
 }
 section .feature {
-  text-align: center;
-  margin: 0 0 40px 0;
+  margin-bottom: 40px;
 }
 .section-alt {
   background: #eeeeee;
@@ -424,37 +409,19 @@ section .feature {
   margin: 0 auto;
 }
 .inner-section h2 {
-  text-align: center;
-  margin: 80px 0 40px 0;
+  margin-bottom: 40px;
 }
 .inner-section p {
   margin-bottom: 10px;
   margin: 0 auto;
 }
-.welcome {
+.about {
   background: #dd6666;
   padding-top: 160px;
 }
-.welcome h2 {
+.about h1 {
   color: #ffffff;
   margin-top: 0;
-}
-.section-title {
-  margin: 20px auto 0;
-  text-align: center;
-  height: 14px;
-  overflow: visible;
-  max-width: 960px;
-}
-.section-title h1 {
-  display: none;
-  color: #666666;
-  font-size: 14px;
-  text-transform: uppercase;
-  background: #ffffff;
-  padding: 0 40px;
-  margin-bottom: -10px;
-  z-index: 2;
 }
 /* FOOTER */
 footer {
@@ -466,10 +433,6 @@ footer {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
   text-rendering: optimizelegibility;
-  font-size: 50px;
-  color: #dd6666;
-  text-transform: uppercase;
-  margin: 0;
   text-align: center;
   width: 100%;
   padding: 40px;
@@ -480,10 +443,6 @@ footer {
   color: #ffffff;
   font-size: 30px;
   margin-top: 40px;
-}
-.apply-button a a,
-.apply-button a:visited a {
-  text-decoration: none;
 }
 .apply-button a a,
 .apply-button a:visited a {

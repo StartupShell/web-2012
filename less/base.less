@@ -74,7 +74,6 @@ h1, .h1 {
  }
 
 h2, .h2 {
-	.h1;
 }
 
 h3, .h3 {
@@ -114,7 +113,7 @@ header {
 			.p;
 			float: left;
 			text-decoration: none;
-			color: @gray;
+			color: @white;
 			margin: 2px 0 0 10px;
 			text-transform: lowercase;
 			font-weight: 400;
@@ -213,11 +212,11 @@ nav.top-menu {
 /* SECTIONS */
 
 section {
-	padding: 0 10px;
+
+	padding: 40px 0;
 
 	.feature {
-		.text-center;
-		margin: 0 0 40px 0;
+		margin-bottom: 40px;
 	}
 }
 
@@ -231,8 +230,7 @@ section {
 	margin: 0 auto;
 
 	h2 {
-		.text-center;
-		margin: 80px 0 40px 0;
+		margin-bottom: 40px;
 	}
 
 	p {
@@ -243,41 +241,15 @@ section {
 
 }
 
-.welcome {
+.about {
 
 	background: @red;
 	padding-top: 160px;
 
-	h2 {
+	h1 {
 		color: @white;
 		margin-top: 0;
 	}
-
-}
-
-.section-title {
-
-
-	// margin-top: 100px;
-	margin: 20px auto 0;
-	// border-bottom: 1px @light-gray solid;
-	.text-center;
-	height: 14px;
-	overflow: visible;
-	max-width: 960px;
-
-	h1 {
-		display: none;
-		color: @gray;
-		font-size: 14px;
-		text-transform: uppercase;
-		background: @white;
-		padding: 0 40px;
-		// display: inline-block;
-		margin-bottom: -10px;
-		z-index: 2;
-	}
-
 }
 
 /* FOOTER */
