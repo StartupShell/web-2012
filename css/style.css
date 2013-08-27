@@ -311,7 +311,7 @@ p,
 }
 /* HEADER */
 header {
-  background: #eeeeee;
+  background: #888888;
   position: relative;
   z-index: 1;
 }
@@ -358,7 +358,7 @@ nav.top-menu ul li {
 }
 nav.top-menu ul li a,
 nav.top-menu ul li a:visited {
-  color: #888888;
+  color: #ffffff;
   text-decoration: none;
   padding: 30px 30px;
   display: block;
@@ -370,6 +370,9 @@ nav.top-menu ul li a:focus,
 nav.top-menu ul li a:visited:focus {
   background: #ffffff;
   color: #888888;
+}
+.nav-active {
+  background: #eeeeee;
 }
 .more-menu {
   margin-top: 60px;
