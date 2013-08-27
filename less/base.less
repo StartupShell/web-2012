@@ -74,6 +74,8 @@ h1, .h1 {
  }
 
 h2, .h2 {
+	.h1;
+	font-size: 36px;
 }
 
 h3, .h3 {
@@ -108,15 +110,16 @@ header {
 		float: left;
 		margin-top: 28px;
 
-		img {float: left;}
-		a h1 {
-			.p;
+		img {
+			float: left;
+		}
+
+		a {
 			float: left;
 			text-decoration: none;
 			color: @white;
 			margin: 2px 0 0 10px;
 			text-transform: lowercase;
-			font-weight: 400;
 		}
 	}
 
@@ -127,11 +130,11 @@ header {
 
 }
 
-	.floating {
-    	position: fixed;
-    	width: 100%;
-    	top: 0;
-	}
+.floating {
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
 
 
 /* NAVIGATION */
@@ -162,13 +165,14 @@ nav.top-menu {
     				color: @gray;
     			}
 
-    			&:last-child {
-    				background: @red;
-    			}
 
 			}
 		}
 	}
+}
+
+#apply {
+	background: @red;
 }
 
 .nav-active {
@@ -233,7 +237,7 @@ section {
 	padding: 0 10px 80px;
 	margin: 0 auto;
 
-	h2 {
+	h1 {
 		margin-bottom: 40px;
 	}
 
