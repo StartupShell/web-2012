@@ -357,6 +357,10 @@ nav.top-menu ul li a:visited:focus {
   background: #ffffff;
   color: #666666;
 }
+nav.top-menu ul li a:last-child,
+nav.top-menu ul li a:visited:last-child {
+  background: #dd6666;
+}
 .nav-active {
   background: #eeeeee;
 }
