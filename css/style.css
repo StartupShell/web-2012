@@ -328,7 +328,7 @@ header .logo {
 header .logo img {
   float: left;
 }
-header .logo a {
+header .logo a span {
   float: left;
   text-decoration: none;
   color: #ffffff;
@@ -369,16 +369,19 @@ nav.top-menu ul li a:visited:focus {
   background: #ffffff;
   color: #666666;
 }
-#apply {
+nav.top-menu ul li a[href*="apply"],
+nav.top-menu ul li a:visited[href*="apply"] {
   background: #dd6666;
 }
-#apply:hover,
-#apply:focus {
+nav.top-menu ul li a[href*="apply"]:hover,
+nav.top-menu ul li a:visited[href*="apply"]:hover,
+nav.top-menu ul li a[href*="apply"]:focus,
+nav.top-menu ul li a:visited[href*="apply"]:focus {
   background: #ffffff;
   color: #666666;
 }
 .nav-active {
-  background: #eeeeee;
+  color: #eeeeee;
 }
 .more-menu {
   margin-top: 60px;

@@ -114,7 +114,7 @@ header {
 			float: left;
 		}
 
-		a {
+		a span {
 			float: left;
 			text-decoration: none;
 			color: @white;
@@ -165,22 +165,23 @@ nav.top-menu {
     				color: @gray;
     			}
 
+    			&[href*="apply"] {
+   					background: @red;
+	    			&:hover, &:focus {
+    					background: @white;
+    					color: @gray;
+	    			}
+
+    			}
+
 
 			}
 		}
 	}
 }
 
-#apply {
-	background: @red;
-	&:hover, &:focus {
-		background: @white;
-		color: @gray;
-	}
-}
-
 .nav-active {
-	background: @light-gray;
+	color: @light-gray;
 }
 
 .more-menu {
