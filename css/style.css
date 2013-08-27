@@ -335,7 +335,7 @@ header .inner-header {
 }
 header .logo {
   float: left;
-  margin-top: 28px;
+  margin-top: 24px;
 }
 header .logo img {
   float: left;
@@ -370,7 +370,7 @@ nav.top-menu ul li a,
 nav.top-menu ul li a:visited {
   color: #ffffff;
   text-decoration: none;
-  padding: 30px 30px;
+  padding: 24px;
   display: block;
   text-transform: lowercase;
 }
