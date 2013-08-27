@@ -372,6 +372,11 @@ nav.top-menu ul li a:visited:focus {
 #apply {
   background: #dd6666;
 }
+#apply:hover,
+#apply:focus {
+  background: #ffffff;
+  color: #666666;
+}
 .nav-active {
   background: #eeeeee;
 }
