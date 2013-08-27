@@ -1,6 +1,6 @@
 body {
     font-size: 18px;
-    line-height: 1.4;
+    line-height: 1.5;
     font-family: @titillium;
     color: @gray;
     text-align: center;
@@ -85,7 +85,6 @@ h4, .h4 {
 }
 
 p, .p {
-	font-size: 18px;
 	text-align: left;
 }
 
@@ -164,24 +163,22 @@ nav.top-menu {
     				background: @white;
     				color: @gray;
     			}
-
-    			&[href*="apply"] {
-   					background: @red;
-	    			&:hover, &:focus {
-    					background: @white;
-    					color: @gray;
-	    			}
-
-    			}
-
-
 			}
 		}
 	}
 }
 
+.nav-emphasis {
+	background: @red;
+	&:hover, &:focus {
+		background: @white;
+		color: @gray;
+	}
+}
+
 .nav-active {
-	color: @light-gray;
+	background: @light-gray;
+	color: @gray;
 }
 
 .more-menu {
