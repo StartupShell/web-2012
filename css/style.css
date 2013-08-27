@@ -456,6 +456,9 @@ section .feature {
   color: #ffffff;
   margin-top: 0;
 }
+.about p {
+  font-size: 28px;
+}
 /* FOOTER */
 footer {
   margin: 80px 0;
