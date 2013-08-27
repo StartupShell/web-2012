@@ -222,6 +222,7 @@ body {
   font-family: 'Titillium Web', sans-serif;
   color: #666666;
   text-align: center;
+  overflow-y: scroll;
 }
 ::-moz-selection {
   background: #b3d4fc;
@@ -390,7 +391,7 @@ nav.top-menu ul li a:visited:focus {
 }
 .nav-active {
   background: #eeeeee;
-  color: #666666;
+  color: #666666 !important;
 }
 .more-menu {
   margin-top: 60px;
